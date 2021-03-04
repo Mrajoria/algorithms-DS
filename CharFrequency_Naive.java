@@ -13,8 +13,7 @@ public class CharFrequency_Naive {
 			    CharFrequency_Naive list[] = new CharFrequency_Naive[26];
 			    for(int i=0;i<list.length;i++){
 			        list[i] = new CharFrequency_Naive();
-			     
-			    }
+			     }
 			    
 			    CharFrequency_Naive obj = new CharFrequency_Naive();
 			    
@@ -43,7 +42,6 @@ public class CharFrequency_Naive {
 	    list[topOfList].ch = chr;
 	    list[topOfList].frequency++;
 	    topOfList++;
-	    
 	}
 
 	public boolean exists(char ch, CharFrequency_Naive list[]){
@@ -58,7 +56,7 @@ public class CharFrequency_Naive {
 	    }
 	    return exists;
 	}
-
+	
 	public void ShowFrequency(CharFrequency_Naive list[]){
 	    for(int i=0;i<list.length;i++){
 	        if(list[i].ch != '\0'){
